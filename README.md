@@ -18,3 +18,5 @@ Step 3: Get the roctx trace using rocprof
 ```
 rocprof --roctx-trace -d rocprof_output -o rocprof_output/results.csv python3 roctx_example.py
 ```
+
+Step 4: Copy the **rocprof_output/results.json** file to your system and visualize in [Perfetto](https://ui.perfetto.dev/)

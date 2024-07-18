@@ -46,5 +46,5 @@ for i in range(n_iterations):
 
   hip_tools.stop_marker(id_iter)
 
-
+print('Finished successfully')
 hip_tools.stop_marker(id_main)

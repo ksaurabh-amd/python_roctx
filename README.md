@@ -21,4 +21,4 @@ Step 3: Get the roctx trace using rocprof
  rocprofv3 --marker-trace --output-format pftrace -- python roctx_example.py
 ```
 
-Step 4: Copy the **rocprof_output/results.json** file to your system and visualize in [Perfetto](https://ui.perfetto.dev/)
+Step 4: Copy the **pftrace** file to your system and visualize in [Perfetto](https://ui.perfetto.dev/)
